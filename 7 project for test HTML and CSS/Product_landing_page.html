@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a product Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #2a292b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 55px;
+        }
+
+        .items {
+            margin-right: 2rem;
+        }
+
+        .footer {
+            background-color: #062f33;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.3rem;
+            height: 141px;
+            color: white;
+        }
+
+        #offer {
+            background-color: #e29c45;
+            border-radius: 0.4rem;
+            padding: 0.3rem;
+            margin-top: 0.5rem;
+            width: 30rem;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.2rem;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+        }
+
+        .content img {
+            height: 374px;
+        }
+
+        .img {
+            margin-right: 14rem;
+        }
+
+        .img img {
+            border: 2px solid black;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .p {
+            text-align: center;
+            line-height: 3.6rem;
+            padding-top: 2rem;
+            font-size: 0.8rem;
+        }
+        .order{
+            background-color: #f39d33;
+            border-radius: 0.5rem;
+            margin-top: 1.5rem;
+            margin-left: 3.5rem;
+            width: 263px;
+            height: 57px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="items">
+                <p>The book series</p>
+            </div>
+            <div class="items">
+                <p>Testimonials</p>
+            </div>
+            <div class="items">
+                <p>The Author</p>
+            </div>
+            <div class="items">
+                <p>Free resources</p>
+            </div>
+        </nav>
+    </section>
+    <section class="content-section">
+        <h2>You dont know JavaScript</h2>
+        <div class="content">
+            <div class="img">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442437433l/25312512._SY475_.jpg"
+                    alt="JS Complete Series">
+            </div>
+            <div class="p">
+                <p>Don't just drift through javascript <br> Understand how JavaScript works <br>Start your journey
+                    through the bumpy side of JavaScript</p>
+                <p class="order">ORDER YOUR COPY NOW</p>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <footer class="footer">
+            <div class="items">
+                <p>The first ebook in the book series is absolutely free.</p>
+            </div>
+            <div id="offer">
+                <p>FIND OUT MORE ABOUT THIS OFFER</p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

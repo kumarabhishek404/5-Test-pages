@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight:100;
+            color: #484848;
+        }
+
+        .navbar {
+            display: flex;
+            margin-top: 1rem;
+            /* background-color: red; */
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            margin-right: 46rem;
+            margin-left: 2rem;
+        }
+
+        .left h3 {
+            margin-left: 1rem;
+        }
+
+        .left h3:hover {
+            border-bottom: 2px solid black;
+            cursor: pointer;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            /* margin-right: 2rem; */
+        }
+
+        .right h3 {
+            margin-left: 1rem;
+        }
+
+        .right h3:hover {
+            border-bottom: 2px solid black;
+            cursor: pointer;
+        }
+
+        .right a {
+            margin-left: 1rem;
+        }
+
+        #logo {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+        }
+        #google{
+            position: absolute;
+            top: 26%;
+            left: 35%;
+            width: 23rem;
+            height:9rem;
+        }
+        .search {
+            border: 1px solid #a59696;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 34rem;
+            height: 3rem;
+            box-shadow: 2px 3px #b7b7b7;
+        }
+        .btn1{
+            position: absolute;
+            top: 64%;
+            left: 42%;
+            transform: translate(-50%,-50%);
+            text-decoration: none;
+            background-color: #f3f3f39c;
+            height: 3rem;
+            width: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn2{
+            position: absolute;
+            top: 64%;
+            left: 57%;
+            transform: translate(-50%,-50%);
+            text-decoration: none;
+            background-color: #f3f3f39c;
+            height: 3rem;
+            width: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            position: absolute;
+            bottom: 1%;
+            left: 3%;
+            display: flex;
+            background-color: #e1e4e8;
+            height: 3rem;
+            width: 73.7rem;
+        }
+
+        .footer .left {
+            margin-right: 41rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <h3>About</h3>
+            <h3>Store</h3>
+        </div>
+        <div class="right">
+            <h3>Gmail</h3>
+            <h3>Images</h3>
+            <a href="#"><i class="fa fa-th" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href="#"><img src="IMG_20200421_170136.jpg" id="logo" alt="logo"></a>
+        </div>
+    </nav>
+    <section>
+        <img src="google_icon.png" id="google"  alt="Google">
+        <div class="search">
+        </div>
+        <a href="#" class="btn1">Google Search</a>
+        <a href="#" class="btn2">I'm Feeling Lucky</a>
+    </section>
+    <footer>
+        <div class="footer">
+
+            <div class="left">
+                <h3>Advertising</h3>
+                <h3>Business</h3>
+            </div>
+            <div class="right">
+                <h3>Privacy</h3>
+                <h3>Terms</h3>
+                <h3>Settings</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Survey Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            background-color: #129db375;
+            width: 900px;
+            height: 587px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        section h1 {
+            padding: 18px 0px 0px 0px;
+            /* font-size: 1px; */
+            letter-spacing: 0.1rem;
+        }
+
+        .form {
+            background-color: white;
+            width: 820px;
+            text-align: center;
+            height: 523px;
+            margin: -10px 0px 0px 41px;
+            font-size: 0.8rem;
+        }
+
+        .form h2 {
+            padding: 23px 0px 23px 0px;
+        }
+
+        .form-group {
+            margin: 23px 0px 0px 0px;
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        .fprm-group div {
+            text-align: center;
+        }
+        label{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Survey Form</h1>
+        <div class="form">
+            <form action="action" class="form-group">
+                <h2>Let us know how we can improve Navgurukul</h2>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" class="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" class="name" placeholder="Enter your Email">
+                </div>
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" class="name" placeholder="Age">
+                </div>
+                <div>
+                    <label for="age">Which option best describes your current role?</label>
+                    <select name="option" id="option">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="parent">Parent</option>
+                        <option value="trustee">Trustee</option>
+                        <option value="alumnie">Alumnie</option>
+                    </select>
+                </div>
+                <div>
+                    <p>How likely is that you would recommend Navgirukul to a friend?</p>
+                    <input type="radio" id="definitely" name="ask" value="definitely">
+                    <label for="definitely">Definitely</label><br>
+                    <input type="radio" id="maybe" name="ask" value="maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="not sure" name="ask" value="de">
+                    <label for="not sure">Not sure</label><br>
+                    
+                </div>
+                <div>
+                    <label for="age">What do you like most in Navgurukul?</label>
+                    <select name="option" id="option">
+                        <option value="culture">Culture</option>
+                        <option value="community">Community</option>
+                        <option value="bonding">Bonding Between Students</option>
+                        <option value="study">Study Pattern</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Things that should be improved inthe future<br>(Check all that apply):
+                        <input type="radio" id="front" name="front" value="front">
+                        <label for="front">Front-end Projects</label><br>
+                        <input type="radio" id="back" name="back" value="back">
+                        <label for="back">Back-end Projects</label><br>
+                        <input type="radio" id="data" name="data" value="data">
+                        <label for="data">Data Visualisation</label><br>
+                    </p>
+
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
